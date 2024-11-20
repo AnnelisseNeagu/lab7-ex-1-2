@@ -7,7 +7,7 @@
     
     <!-- CSS pentru stilizare -->
     <style>
-        /* Stiluri generale pentru pagină */
+    
         body {
             font-family: Arial, sans-serif;
             background-color: #f2f4f7;
@@ -17,20 +17,20 @@
             line-height: 1.6;
         }
         
-        /* Stiluri pentru titluri */
+     
         h1 {
             font-size: 1.8em;
             color: #004080;
             margin-bottom: 15px;
         }
         
-        /* Stiluri pentru paragrafe */
+      
         p {
             font-size: 1em;
             margin: 10px 0;
         }
         
-        /* Stilizare linkuri pentru discipline */
+       
         a {
             color: #0088cc;
             text-decoration: none;
@@ -40,7 +40,7 @@
             text-decoration: underline;
         }
 
-        /* Stiluri pentru secțiunile "Discipline" și "Hobby-uri" */
+      
         h1, .section {
             background-color: #e6f2ff;
             padding: 15px;
@@ -48,13 +48,13 @@
             margin-bottom: 20px;
         }
 
-        /* Stiluri pentru listă de hobby-uri */
+       
         .hobby {
             padding-left: 20px;
             margin: 5px 0;
         }
 
-        /* Stiluri pentru imaginea de profil */
+        
         img {
             display: block;
             margin: 0 auto;
@@ -66,7 +66,7 @@
             transition: all 0.3s ease;
         }
         
-        /* Butonul "Alta viata" */
+       
         button {
             padding: 10px 20px;
             background-color: #007BFF;
@@ -107,7 +107,7 @@
 
     <script>
         function altaViata() {
-            // Adăugarea locului de muncă visat
+            
             var locMunca = document.createElement('h1');
             locMunca.textContent = "Loc de muncă visat";
             document.body.appendChild(locMunca);
@@ -116,7 +116,7 @@
             locMuncaText.textContent = "Funcție: Inginer Software la Bitdefender";
             document.body.appendChild(locMuncaText);
 
-            // Adăugarea absolvirii
+            
             var absolviriiHeader = document.createElement('h1');
             absolviriiHeader.textContent = "Absolvire";
             document.body.appendChild(absolviriiHeader);
@@ -129,7 +129,7 @@
             master.innerHTML = "<strong>Master în Management și Marketing</strong>, Universitatea Internațională din Monaco";
             document.body.appendChild(master);
 
-            // Adăugarea proiectelor internaționale
+            
             var proiecteInternationale = document.createElement('h1');
             proiecteInternationale.textContent = "Proiecte Internaționale";
             document.body.appendChild(proiecteInternationale);
@@ -138,11 +138,10 @@
             proiecteText.textContent = "Participare în proiecte Erasmus în cadrul universității, dar și în cadrul proiectelor de voluntariat precum Work & Travel.";
             document.body.appendChild(proiecteText);
 
-            // Modificarea unui hobby
             var hobbyText = document.getElementsByClassName('hobby');
             hobbyText[2].textContent = "3. Mersul la teatru";
 
-            // Modificarea imaginii de profil
+          
             var profilImagine = document.getElementById("profil-imagine");
             profilImagine.src = "poza-2.jpeg";
             profilImagine.style.opacity = "0.7";
